@@ -11,10 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('posts', function (Blueprint $table) {
-            //Renomeia a coluna body para content
-            //$table->renameColumn('body', 'content');
-       
+        Schema::table('businesses', function (Blueprint $table) {
+            $table -> string('logo')->nullable()->after('id');
         });
     }
 
@@ -23,9 +21,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //Renomeia a coluna content para body
-        Schema::table('posts', function (Blueprint $table) {
-            $table->renameColumn('content', 'body');
+        Schema::table('businesses', function (Blueprint $table) {
+            $table->dropColumn('logo');
         });
     }
 };

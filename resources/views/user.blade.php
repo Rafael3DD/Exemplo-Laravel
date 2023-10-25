@@ -7,7 +7,7 @@
 
 
 @push('styles')
-    <link rel="stylesheet" href="@vite('css/user.css')" >
+    <link rel="stylesheet" href="{{asset('css/user.css')}}" >
 @endpush
 
 

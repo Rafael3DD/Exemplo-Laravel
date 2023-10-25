@@ -17,8 +17,8 @@ return new class extends Migration
             ->constrained()
             -> onDelete('CASCADE')
             -> onUpdate('CASCADE');
-            $table->string('title');
             $table->longText('body');
+            $table->string('title');  
             $table->string('tags')->nullable();
             $table->timestampsTz($precision = 0);
         });

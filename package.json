@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "asynckit": "^0.4.0",
+    "autoprefixer": "^10.4.16",
     "combined-stream": "^1.0.8",
     "delayed-stream": "^1.0.0",
     "esbuild": "^0.18.20",
@@ -34,6 +35,7 @@
     "proxy-from-env": "^1.1.0",
     "rollup": "^3.29.4",
     "source-map-js": "^1.0.2",
+    "tailwindcss": "^3.3.5",
     "vite-plugin-full-reload": "^1.0.5"
   },
   "keywords": [],

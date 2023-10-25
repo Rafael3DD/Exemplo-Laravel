@@ -13,7 +13,7 @@ class Business extends Model
         'name',
         'email',
         'address',
-
+        'logo',
         //se voce remover algum registro dessa parte ele será ignorado no momento da inserção
 
     ];
